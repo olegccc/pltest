@@ -40,19 +40,25 @@ See [TRADEOFFS.md](TRADEOFFS.md) for design tradeoffs and architectural decision
    yarn install
    ```
 
-2. **Build the project** (required on first run):
+2. **Create backend environment file**:
+
+   ```bash
+   cp packages/backend/.env.example packages/backend/.env
+   ```
+
+3. **Build the project** (required on first run):
 
    ```bash
    yarn build
    ```
 
-3. **Run the application**:
+4. **Run the application**:
 
    ```bash
    yarn dev
    ```
 
-4. **Open your browser** to http://localhost:3000
+5. **Open your browser** to http://localhost:3000
 
 The application will:
 
