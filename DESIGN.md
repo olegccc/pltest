@@ -99,3 +99,5 @@ Generates a natural language explanation of the user's metrics.
   "explanation": "User user123 is highly active with 155 total events..."
 }
 ```
+
+See [AI_EXPLANATION.md](AI_EXPLANATION.md) for detailed information about how the AI explanation feature works.

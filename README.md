@@ -23,6 +23,10 @@ This application demonstrates a complete vertical slice of data ingestion, backe
 
 See [DESIGN.md](DESIGN.md) for architecture, data flow, CSV data format, and API endpoints.
 
+See [AI_EXPLANATION.md](AI_EXPLANATION.md) for details on how the AI explanation feature works.
+
+See [TRADEOFFS.md](TRADEOFFS.md) for design tradeoffs and architectural decisions.
+
 ## Prerequisites
 
 - Node.js >= 24.0.0 (check `.nvmrc` for exact version)
@@ -100,6 +104,7 @@ By default, the application uses a rule-based explanation generator. To enable r
 3. **Restart the server** to use the LLM
 
 **Note**: If no model is configured, the application automatically falls back to rule-based explanations. Both approaches work equally well for demonstration purposes.
+
 
 ## Development
 
