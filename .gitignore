@@ -1,0 +1,9 @@
+node_modules
+dist
+.idea
+*.local
+.DS_Store
+.env
+.env.local
+.env.*.local
+packages/backend/model
